@@ -48,12 +48,19 @@ Using computational text analysis, I study issue attention, ideological change a
 
 Methodological innovation
 ===
-Contributions to innovative use of state-of-the-art techniques for data collection and analysis using computational linguistics and network science. 
+Contributions to innovative use of state-of-the-art techniques for data collection and analysis using computational linguistics and network science.
+
 (1) A dataset to identify frames in movement rhetoric using a supervised approach and a data set of 2 million tweets and stories published by the top Spanish newspapers gathered during the major demonstrations of the Indignados Movement between 2011 and 2013 - with Silvia Majò-Vázquez
+
 (2) Supervised techniques and feature extraction to create protest event datasets. This has evolved from a first dataset for the city of Barcelona between 2010-2015 which started from human annotators identifying actors and events in ten news sources and has evolved to generative language models extracting event features from news stories for protest events in Latin America and Europe. These models have been rigorously validated on carefully identified datasets based on human annotation from multiple projects worldwide. 
+
 (3) Measuring influence as linguistic similarity - method applied on a dataset built for 150 interest group organizations which includes one million tweets, parliamentary appearances, press releases and organizational attributes. 
+
 (4) Classify tweets from political representatives into policy issues - created a supervised method which automatically identifies policy related content using data from celebrities on Twitter and data from the official communication of government ministries to identify policy topics in their temporal context. I have also applied this method to research on comparative agendas in Latin America on presidential agendas on Twitter and presidential speeches for 8 countries (2002-2023), as well as government institutions in topics such as the peace agreement in Colombia. 
+
 (5) Cultural outcomes of social movements - automatic identification of movement narratives using natural language processing. A paper titled “The cultural outcomes of Social movements - a computational linguistics approach” has been published on the Participation and Conflict journal in 2021. This approach is relevant for having a subjective and replicable analysis of large text corpora. Its potential has led to the proposal of a collaborative comparative European project for the study of movement manifestos. A recent extension of this work is my participation in the DIPROMATS 2024 challenge for narrative detection (Paper with José Antonio García-Díaz, 2024). 
+
 (6) Potential of generative large language models as surrogate survey respondents in order to asses attitudes towards protest (Paper under review in the Sociological Methods & Research Journal, 2025 with Katrin Uba). 
+
 (7) Ageintic Interest Groups - Simulations of interactions between policy actors using generative large language models as teaching materials for the course collective action and Interest Groups (UB, 2025, teaching innovation paper).
 
