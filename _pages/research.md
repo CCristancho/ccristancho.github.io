@@ -22,126 +22,138 @@ title: "Research"
 
 ---
 
-## 1. Protest and Collective Action
+## Protest and collective action
 
-### 1.1 Individual Behavior
+### Individual behavior
 
-Research explores:
-- Participation in protests and demonstrations
-- Social media’s impact on mobilization and inequality
-- Online/offline coordination and organization-independent collective action
+Research on individual participation in protests, demonstrations, and the role of social media in mobilization and inequality.
 
-**Methodological Strategies**:
-- **News Coverage Experiments**: Causal analysis of journalist perceptions (w/ Ruud Wouters, 2021)
-- **Elite Reactions & Media Frames**: Twitter-based study on Catalan nationalism (w/ Silvia Majò, Eva Anduiza)
-- **Spatial Inequalities in Protest Supply**: Geo-located protest dataset in Barcelona (w/ Sheila González)
-- **15M/Indignados Movement**: Surveys and text analysis of protest networks and connective action (w/ Eva Anduiza)
+**Methodological Strategies:**
 
-### 1.2 Elite Emotions and Catalan Independence
+- **News Coverage Experiments**  
+  With Ruud Wouters (2021): Two conjoint experiments with journalists to examine how protest attributes affect media coverage.
 
-- Twitter-based study of how elite messages shape emotional reactions among followers during the Catalan independence process.
+- **Elite Reactions & Media Frames**  
+  With Silvia Majò and Eva Anduiza: Uses Twitter data to study elite-public interactions during anti-austerity and Catalan nationalist protests.
 
-### 1.3 Identity Formation and Media Claims
+- **Spatial Inequalities in Protest**  
+  With Sheila González: Combines survey data and a geo-located protest dataset in Barcelona to study protest supply.
 
-- Network analysis of protester claims in pro-Palestinian demonstrations worldwide (w/ Elena Pavan).
+- **15M/Indignados Movement**  
+  With Eva Anduiza: Surveys and text analysis to study connective action and participant profiles in the Spanish anti-austerity movement.
 
----
+### Elite emotions and catalan independence
 
-## 2. Public Support for Protest
+Twitter-based analysis of how political elite claims shaped emotional responses during the Catalan independence and counter-movements.
 
-- Combines surveys, experiments, LLMs, and text analysis.
-- Early studies: Twitter data and media frame analysis.
-- Comparative survey in 9 European countries during the 2010 crisis (w/ Katrin Uba, Lorenzo Zamponi).
-- New work on synthetic data generation using large language models (w/ Eva Anduiza, Marco Giugni, Katrin Uba).
+### Identity formation and media claims
+
+With Elena Pavan: Network science applied to demonstrator narratives in pro-Palestinian protests across time and space.
 
 ---
 
-## 3. Media Representations of Protest
+## Public support for protest
 
-Focuses on Latin America using a 25-year, 18,000-item protest dataset.
+Combines survey data, experiments, LLMs, and text analysis:
 
-- Incorporates social psychology to explore media narratives, system justification, and majority status.
-- Future extensions:
-  1. Experiments measuring media effects and psychological mechanisms
-  2. Algorithmic representations on YouTube using bot simulations and personalization models
-
----
-
-## 4. Influence and Response of Political Elites to Interest Groups
-
-Part of a 3-year PI-led project: **Rhetorical representation and influence in policy making** (RTI2018-100861-J-I00).
-
-- Original dataset includes 2000–2020 records from press releases, social media, government agendas, and parliamentary debates.
-- Published work on:
-  - Influence in emergency contexts
-  - Cultural outcomes of women’s organizations
-  - Rhetorical adoption of interest group narratives (under review)
-  - Methodological framework using computational linguistics
+- Early work: Twitter analyses of protest events in Spain.
+- Framing effects in news and social media on public support.
+- Comparative survey in 9 European countries during the 2010 economic crisis (with Katrin Uba and Lorenzo Zamponi).
+- Latest research explores synthetic data with large language models (Uba, Anduiza, Giugni).
 
 ---
 
-## 5. Public Perceptions of Interest Representation
+## Media representations of protest
 
-(In collaboration with Leire Rincón)
+Focus on Latin America, using a dataset of 18,000 protest newswire stories (1999–2024):
 
-- Uses survey experiments to assess public views on the legitimacy and effectiveness of lobbying efforts.
-- Focus on the role of **public support** in interest group success.
-
----
-
-## 6. Interest Groups in Parliament
-
-(In collaboration with Luz Muñoz and Anna Palau)
-
-- Uses text and network science to analyze:
-  - Interactions between 1,491 interest groups and 25 parliamentary parties
-  - Based on 6,500 hearings from the Spanish **Congreso de los Diputados** (1996–2023)
+- Analyzes narrative framing through the lens of social psychology (e.g., system justification, majority status).
+- Future work includes:
+  1. Experimental designs testing individual perception of protest media.
+  2. Algorithmic bias on YouTube via bot-based user simulations.
 
 ---
 
-## 7. Agenda Dynamics and Political Representation
+## Influence and response of political elites to interest groups
 
-(In collaboration with Laura Chaqués, Emanuella Lombardo, Emiliano Grossman, et al.)
+From PI-led project: **RTI2018-100861-J-I00 (2019–2022)**
 
-- Gender and issue representation in parliaments
-- Linguistic differences between male/female MPs
-- Comparison of agenda attention between social media and institutional debates
-- Uses mixed-method and classifier performance analyses
+- Tracks rhetorical and agenda influence using datasets covering 2000–2020:
+  - Press releases
+  - Social media
+  - Parliamentary transcripts
 
----
-
-## 8. Presidential Agendas in Latin America
-
-- Original dataset of 30,000 speeches (formal and media-based) from 8 countries (20 years)
-- Policy issue classification at sentence level
-- Ideological classification using a synthetic dataset of 1,800 left/right claims
+Published and in-progress work:
+- Influence in emergencies
+- Cultural outcomes of women’s orgs
+- Narrative adoption by elites (under review)
+- Methodological paper on rhetorical influence measurement
 
 ---
 
-## 9. Methodological Innovation
+## Public perceptions of interest representation
 
-Highlights innovations in computational linguistics, network science, and synthetic data:
+With Leire Rincón:
 
-1. **Frame Identification Dataset**  
-   - 2M tweets/news items on Indignados Movement (2011–2013)
-
-2. **Protest Event Datasets**  
-   - From human-annotated Barcelona dataset (2010–2015) to LLM-based extraction for Europe & Latin America
-
-3. **Measuring Influence via Linguistic Similarity**  
-   - Dataset of 150 groups: 1M tweets, press releases, hearings
-
-4. **Classifying Tweets into Policy Issues**  
-   - Applied to celebrities, government Twitter, Latin American agendas, Colombia’s peace agreement
-
-5. **Cultural Outcomes of Movements**  
-   - NLP analysis of manifestos; comparative EU project proposal and DIPROMATS 2024 paper (w/ José Antonio García-Díaz)
-
-6. **LLMs as Survey Surrogates**  
-   - Evaluating protest attitudes (w/ Katrin Uba, under review in *Sociological Methods & Research*, 2025)
-
-7. **Agentic Interest Groups Simulation**  
-   - LLM-based policy actor simulations for classroom use (UB 2025, teaching innovation)
+- Explores how lobbying success is tied to public approval.
+- Uses survey experiments with a nationally representative sample.
+- Studies effects of tactics, contact, and issue salience.
 
 ---
 
+## Interest groups in parliament
+
+With Luz Muñoz and Anna Palau:
+
+- Network and text analysis of 6,500 parliamentary hearings (1996–2023)
+- Maps interaction between 1,491 interest groups and 25 parliamentary parties in Spain’s Congreso.
+
+---
+
+## Agenda dynamics and political representation
+
+With Laura Chaqués, Emanuella Lombardo, Emiliano Grossman, et al.
+
+- Shows female MPs are marginalized in parliamentary discourse (EJPR, 2022).
+- Mixed-method study of gendered language and issue attention.
+- Recent work explores:
+  - Classifier performance across MP speeches (France, Italy, Spain)
+  - Differences in agenda attention between social media vs parliament (under review)
+
+---
+
+## Presidential agendas in latin america
+
+Original dataset of 30,000 presidential speeches (2000–2024):
+
+- Includes institutional addresses and personal media programs.
+- Sentence-level classification of:
+  - Policy issues
+  - Ideological position (based on synthetic left/right dataset)
+
+---
+
+## Methodological innovation
+
+1. **Frame identification**  
+   - Supervised approach using 2M tweets/news items from 2011–2013 Indignados protests (with Silvia Majò-Vázquez)
+
+2. **Protest event extraction**  
+   - Transitioned from human-annotated Barcelona dataset to LLM-based event extraction for Europe & Latin America
+
+3. **Linguistic influence measurement**  
+   - Compares similarity across tweets, hearings, press releases for 150 organizations
+
+4. **Tweet classification into policy issues**  
+   - Supervised classifier using celebrity/government Twitter to identify topics; applied to Latin America and Colombia
+
+5. **Cultural outcomes of movements**  
+   - NLP on manifestos and narratives; published in *Participation and Conflict* (2021); DIPROMATS challenge (2024)
+
+6. **LLMs as survey surrogates**  
+   - Evaluates attitudes toward protest via LLMs; under review in *Sociological Methods & Research* (2025, with Katrin Uba)
+
+7. **Agentic interest groups (simulations)**  
+   - Uses generative AI in policy actor role-play for teaching (UB 2025); paper on teaching innovation in progress
+
+---
