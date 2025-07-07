@@ -3,8 +3,6 @@ permalink: /research/
 title: "Research"
 ---
 
-# Research
-
 ## Table of Contents
 
 1. [Protest and collective action](#protest-and-collective-action)
