@@ -8,7 +8,7 @@ title: "Research"
 1. [Protest and collective action](#protest-and-collective-action)
    1. [Individual behavior](#individual-behavior)
    2. [Elite emotions and Catalan independence](#elite-emotions-and-catalan-independence)
-   3. [Collective identity](#collective-identity)
+   3. [Collective identity](#identity-formation-and-media-claims)
 2. [Public support for protest](#public-support-for-protest)
 3. [Media representations of protest](#media-representations-of-protest)
 4. [Influence and response of political elites to interest groups](#influence-and-response-of-political-elites-to-interest-groups)
