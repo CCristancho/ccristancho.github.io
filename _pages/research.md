@@ -7,18 +7,18 @@ title: "Research"
 
 ## Table of Contents
 
-1. [Protest and Collective Action](#protest-and-collective-action)
-   1. [Individual Behavior](#individual-behavior)
-   2. [Elite Emotions and Catalan Independence](#elite-emotions-and-catalan-independence)
-   3. [Identity Formation and Media Claims](#identity-formation-and-media-claims)
-2. [Public Support for Protest](#public-support-for-protest)
-3. [Media Representations of Protest](#media-representations-of-protest)
-4. [Influence and Response of Political Elites to Interest Groups](#influence-and-response-of-political-elites-to-interest-groups)
-5. [Public Perceptions of Interest Representation](#public-perceptions-of-interest-representation)
-6. [Interest Groups in Parliament](#interest-groups-in-parliament)
-7. [Agenda Dynamics and Political Representation](#agenda-dynamics-and-political-representation)
-8. [Presidential Agendas in Latin America](#presidential-agendas-in-latin-america)
-9. [Methodological Innovation](#methodological-innovation)
+1. [Protest and collective action](#protest-and-collective-action)
+   1. [Individual behavior](#individual-behavior)
+   2. [Elite emotions and catalan independence](#elite-emotions-and-catalan-independence)
+   3. [Identity formation and media claims](#identity-formation-and-media-claims)
+2. [Public support for protest](#public-support-for-protest)
+3. [Media representations of protest](#media-representations-of-protest)
+4. [Influence and response of political elites to interest groups](#influence-and-response-of-political-elites-to-interest-groups)
+5. [Public perceptions of interest representation](#public-perceptions-of-interest-representation)
+6. [Interest groups in parliament](#interest-groups-in-parliament)
+7. [Agenda dynamics and political representation](#agenda-dynamics-and-political-representation)
+8. [Presidential agendas in latin america](#presidential-agendas-in-latin-america)
+9. [Methodological innovation](#methodological-innovation)
 
 ---
 
