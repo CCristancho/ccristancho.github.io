@@ -10,7 +10,7 @@ The Presidential Speeches Dataset
 * 25,000 transcripts
 * Extends formal/ritual speeches to a broad range of presidential interventions including public ceremonies, regional visits, interviews, daily press briefings, and policy announcements delivered across diverse institutional and informal contexts
 
-Protest Event Data - Palestinian issue October 7th, 2023 - June 30th, 2025
+Protest event data - Palestinian issue October 7th, 2023 - June 30th, 2025
 ======
 * Protest event reports from major news wires worldwide
 * 2,263 unique events within issue
@@ -41,13 +41,13 @@ Protest event data - Spain 1994-2021
 ======
 * Protest event data
   * 790 protest events from 3,417 news articles filtered from Factiva in English and Spanish (SPAIN and (protest* OR demonstrat* OR Rall* OR Strik*) 
-* Automatic extraction of protest event data from El Pâis, El Mundo and News agencies for Sapin (AP, AFP, EFE, DPA)"
+* Automatic extraction of protest event data from El Pâis, El Mundo and News agencies for Spain (AP, AFP, EFE, DPA)"
 - Named Entity Recognition using SMO denominations and Factiva tags.
 - Repertoire dictionary
 - Violence classifier
 - Validation with protest event data from the Observatory for Political Conflict and Democracy in Europe - https://poldem.eui.eu/downloads/pea/poldem-protest_30.csv
 
-Interest Groups, government, representatives and parties on Twitter 2018 - 2021
+Interest Groups, Government, MPs and Parties on Twitter 2018 - 2021
 ======
 * 1'100.000 Tweet IDs 
 * Tweets from the five main spanish speaking parties in Spain - 2018-2022
