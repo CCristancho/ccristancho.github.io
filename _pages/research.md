@@ -3,7 +3,7 @@ permalink: /research/
 title: "Research"
 ---
 
-## Table of Contents
+## Research lines
 
 1. [Protest and collective action](#protest-and-collective-action)
    1. [Individual behavior](#individual-behavior)
