@@ -9,6 +9,8 @@ The Presidential Speeches Dataset
 * 1999-2023
 * 25,000 transcripts
 * Extends formal/ritual speeches to a broad range of presidential interventions including public ceremonies, regional visits, interviews, daily press briefings, and policy announcements delivered across diverse institutional and informal contexts
+<a href="https://www.dropbox.com/scl/fi/3x76xv3mijrmaxarob2o2/The-Presidential-Speeches-Dataset.pdf?rlkey=gx6zkfjm7b1adueuob5ykn6cq&dl=0">Data description</a>
+
 
 Protest event data - Palestinian issue October 7th, 2023 - June 30th, 2025
 ======
@@ -16,7 +18,7 @@ Protest event data - Palestinian issue October 7th, 2023 - June 30th, 2025
 * 2,263 unique events within issue
 * 69 countries
 * Automatic extraction of event features from News Agencies in english (AP, AFP, EFE, DPA)
-<img src="[https://image.url](https://www.dropbox.com/scl/fi/arfkjxs0e67z4ja850hi0/event_location.png?rlkey=vhxtc8rte9tl9am49irp2j341&dl=0)"></img>
+<img src="https://www.dropbox.com/scl/fi/arfkjxs0e67z4ja850hi0/event_location.png?rlkey=vhxtc8rte9tl9am49irp2j341&dl=0"></img>
   
 Protest event data - Latin America 1999-2024
 ======
