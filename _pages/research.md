@@ -1,5 +1,5 @@
 ---
-layout: archive
+permalink: /research/
 title: "Research"
 ---
 
