@@ -3,6 +3,29 @@ permalink: /datasets/
 title: "Datasets"
 ---
 
+The Presidential Speeches Dataset
+======
+* Presidential speeches from eight Latin American countries 
+* 1999-2023
+* 25,000 transcripts
+* Extends formal/ritual speeches to a broad range of presidential interventions including public ceremonies, regional visits, interviews, daily press briefings, and policy announcements delivered across diverse institutional and informal contexts
+
+Protest Event Data - Palestinian issue October 7th, 2023 - June 30th, 2025
+======
+* Protest event reports from major news wires worldwide
+* 2,263 unique events within issue
+* 69 countries
+* Automatic extraction of event features from News Agencies in english (AP, AFP, EFE, DPA)
+<img src="[https://image.url](https://www.dropbox.com/scl/fi/arfkjxs0e67z4ja850hi0/event_location.png?rlkey=vhxtc8rte9tl9am49irp2j341&dl=0)"></img>
+  
+Protest event data - Latin America 1999-2024
+======
+* Protest event data
+  * 17,000 events
+  * 10 countries
+* Automatic extraction of event features from News Agencies in english (AP, AFP, EFE, DPA)
+- Validation with protest event data from CONICET for four countries and COES Argentina.
+
 Press releases from Interest Groups and parties - Spain 2008 - 2021
 ======
 * Party rhetoric data
