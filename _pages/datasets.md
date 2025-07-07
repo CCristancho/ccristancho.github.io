@@ -18,7 +18,7 @@ Protest event data - Palestinian issue October 7th, 2023 - June 30th, 2025
 * 2,263 unique events within issue
 * 69 countries
 * Automatic extraction of event features from News Agencies in english (AP, AFP, EFE, DPA)
-<img src="https://www.dropbox.com/scl/fi/arfkjxs0e67z4ja850hi0/event_location.png?rlkey=vhxtc8rte9tl9am49irp2j341&dl=0"></img>
+![Event Location](https://www.dropbox.com/scl/fi/arfkjxs0e67z4ja850hi0/event_location.png?rlkey=vhxtc8rte9tl9am49irp2j341&raw=1)
   
 Protest event data - Latin America 1999-2024
 ======
