@@ -44,9 +44,9 @@ Research on individual participation in protests, demonstrations, and the role o
 
 Twitter-based analysis of how political elite claims shaped emotional responses during the Catalan independence and counter-movements.
 
-### Identity formation and media claims
+### Collective identity in times of moral shocks
 
-With Elena Pavan: Network science applied to demonstrator narratives in pro-Palestinian protests across time and space.
+With Elena Pavan: Network science applied to demonstrator claims in pro-Palestinian protests across time and space.
 
 ---
 
@@ -55,9 +55,8 @@ With Elena Pavan: Network science applied to demonstrator narratives in pro-Pale
 Combines survey data, experiments, LLMs, and text analysis:
 
 - Early work: Twitter analyses of protest events in Spain.
-- Framing effects in news and social media on public support.
 - Comparative survey in 9 European countries during the 2010 economic crisis (with Katrin Uba and Lorenzo Zamponi).
-- Latest research explores synthetic data with large language models (Uba, Anduiza, Giugni).
+- Latest research explores synthetic data with large language models (with Katrin Uba).
 
 ---
 
@@ -65,16 +64,17 @@ Combines survey data, experiments, LLMs, and text analysis:
 
 Focus on Latin America, using a dataset of 18,000 protest newswire stories (1999–2024):
 
-- Analyzes narrative framing through the lens of social psychology (e.g., system justification, majority status).
+- Analyzes public support for protest as the extent of the protest paradigm.
 - Future work includes:
-  1. Experimental designs testing individual perception of protest media.
-  2. Algorithmic bias on YouTube via bot-based user simulations.
+  1. Narrative framing through the lens of social psychology (e.g., system justification, majority status).
+  2. Experimental designs testing individual perceptions of media portrayals of protest.
+  3. Algorithmic bias on YouTube via bot-based user simulations.
 
 ---
 
 ## Influence and response of political elites to interest groups
 
-From PI-led project: **RTI2018-100861-J-I00 (2019–2022)**
+**Rhetorical representation and influence of organized groups in the definition of public debate and in legislative activity**
 
 - Tracks rhetorical and agenda influence using datasets covering 2000–2020:
   - Press releases
@@ -91,40 +91,35 @@ Published and in-progress work:
 
 ## Public perceptions of interest representation
 
-With Leire Rincón:
-
-- Explores how lobbying success is tied to public approval.
-- Uses survey experiments with a nationally representative sample.
-- Studies effects of tactics, contact, and issue salience.
+- Explores how lobbying success is tied to public approval (With Leire Rincón)
+- Survey experiments with a nationally representative sample
+- Studies effects of tactics, contact, and issue salience
 
 ---
 
 ## Interest groups in parliament
 
-With Luz Muñoz and Anna Palau:
-
-- Network and text analysis of 6,500 parliamentary hearings (1996–2023)
-- Maps interaction between 1,491 interest groups and 25 parliamentary parties in Spain’s Congreso.
+- Network and text analysis of 6,500 parliamentary hearings (1996–2023) - With Luz Muñoz
+- Maps interactions between 1,491 interest groups and 25 parliamentary parties in Spain
+- Empirical approach to corporatism
 
 ---
 
 ## Agenda dynamics and political representation
 
-With Laura Chaqués, Emanuella Lombardo, Emiliano Grossman, et al.
-
-- Shows female MPs are marginalized in parliamentary discourse (EJPR, 2022).
+- Female MPs in parliamentary discourse
 - Mixed-method study of gendered language and issue attention.
 - Recent work explores:
   - Classifier performance across MP speeches (France, Italy, Spain)
-  - Differences in agenda attention between social media vs parliament (under review)
+  - Differences in agenda attention between social media vs parliament (With Laura Chaqués, Marcello Caramia, Federico Russo)
 
 ---
 
 ## Presidential agendas in latin america
 
-Original dataset of 30,000 presidential speeches (2000–2024):
+Original dataset of 25,000 everyday presidential speeches (1999-2023):
 
-- Includes institutional addresses and personal media programs.
+- Includes everyday speeches and own media
 - Sentence-level classification of:
   - Policy issues
   - Ideological position (based on synthetic left/right dataset)
@@ -137,13 +132,13 @@ Original dataset of 30,000 presidential speeches (2000–2024):
    - Supervised approach using 2M tweets/news items from 2011–2013 Indignados protests (with Silvia Majò-Vázquez)
 
 2. **Protest event extraction**  
-   - Transitioned from human-annotated Barcelona dataset to LLM-based event extraction for Europe & Latin America
+   - Human-annotated Barcelona dataset, LLM-based event features extraction for Europe & Latin America
 
-3. **Linguistic influence measurement**  
+3. **Rhetorical influence measurement**  
    - Compares similarity across tweets, hearings, press releases for 150 organizations
 
 4. **Tweet classification into policy issues**  
-   - Supervised classifier using celebrity/government Twitter to identify topics; applied to Latin America and Colombia
+   - Supervised classifier using celebrity/government Twitter to identify topics; applied to Latin American elites
 
 5. **Cultural outcomes of movements**  
    - NLP on manifestos and narratives; published in *Participation and Conflict* (2021); DIPROMATS challenge (2024)
@@ -152,6 +147,6 @@ Original dataset of 30,000 presidential speeches (2000–2024):
    - Evaluates attitudes toward protest via LLMs; under review in *Sociological Methods & Research* (2025, with Katrin Uba)
 
 7. **Agentic interest groups (simulations)**  
-   - Uses generative AI in policy actor role-play for teaching (UB 2025); paper on teaching innovation in progress
+   - Generative AI in policy actor role-play for teaching (UB 2025); paper on teaching innovation in progress
 
 ---
