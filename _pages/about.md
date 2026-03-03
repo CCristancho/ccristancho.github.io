@@ -26,7 +26,7 @@ Working papers
 ======
 [Social identity in times of moral shocks: a network analysis of protesters’ claims](https://www.dropbox.com/scl/fi/3fdhox4x90jbx0cydinmu/collective_identity-in-times-of-major-shocks_-15062025.pdf?rlkey=9myafdjakkdg2srmvwqzbqegy&dl=0) - with elena pavan.
 
-[Attitudes towards protest: A large-scale comparative perspective of media representations of protest in 21st-century Latin America](https://www.dropbox.com/scl/fi/epj5txn55urs9mdst7tf5/Attitudes-towards-protest_16062025.pdf?rlkey=7e93qlugfpu12mb34x7khbh30&dl=0)
+A large-scale comparative perspective of media representations of protest in 21st-century Latin America
 
 [The Presidential Speeches Dataset: Formal and Informal Speechmaking in Latin America, 1999–2023](https://www.dropbox.com/scl/fi/3x76xv3mijrmaxarob2o2/The-Presidential-Speeches-Dataset.pdf?rlkey=gx6zkfjm7b1adueuob5ykn6cq&dl=0)
 
