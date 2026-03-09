@@ -10,7 +10,12 @@ redirect_from:
 
 I am a computational social scientist in the Political Science and Law Department at Universitat de Barcelona (Ramón y Cajal research fellow 2023-2027). My research covers topics related to protest politics and interest groups. I use computational linguistics, network analysis, and experimental and survey data to address core questions on representation, inequalities, and influence processes in Europe and Latin America.
 
-[My research project on rhetorical influence, political organisations and policy processes](https://ccristancho.github.io/rrigo/) uses data from social media and parliamentary records in a comparative perspective.
+I currently work on three research projects: 
+[Rhetorical influence, political organisations and policy processes in Spain](https://ccristancho.github.io/rrigo/) uses text from social media, press releases, and parliamentary records to trace political actors across arenas in a long timeframe.
+[Comparative Protest in Latin America] 
+[The Social Construction of Protest and its Effects: Media depictions and Public Attitudes towards Protest] focuses on Southern Europe in comparative perspective. This collaborative project, developed with movement scholars from Spain, Italy, Portugal, and Greece, has been submitted to the Spanish research agency and is currently awaiting funding approval.
+
+I am also member of the Universitat de Barcelona team on the HORIZON-CL2-2024-DEMOCRACY-01-06 [What-if: Advanced Simulations for Testing the Effect of the Information Environment on the functioning of democracies](https://what-if-horizon.eu/) led by Laia Castro.
 
 Publications
 ======
