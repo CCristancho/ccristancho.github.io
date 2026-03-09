@@ -52,4 +52,4 @@ Illiberalism in Latin America – Public claims in presidential speeches 1999-20
 
 Varieties of elite polarisation in Latin America - with Luis Remiro
 
-Why do people support populism? Evidence from a conjoint analysis - with Hugo Marcos-Marne and Steven Van-Hauwaert
+Why do people support populism? Evidence from a conjoint analysis - with Hugo Marcos-Marne and Steven Van-Hauwaert 
