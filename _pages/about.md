@@ -36,7 +36,7 @@ Working papers
 
 [Elite responsiveness to protest in Latin America: Evidence from protest event data and political elites on Twitter - with Ruud Wouters](https://www.dropbox.com/scl/fi/fkma4mkxpamyy3vinrv18/Elite-responsiveness-to-protest-in-Latin-America.pdf?rlkey=p1twm8y2n1vqwjlspdst0dwob&dl=0)
 
-MPs' issue prioritization on social media in Italy and Spain - with Marcello Carammia, Laura Chaqués-Bonafont and Federico Russo
+MPs' issue prioritization on social media in Italy and Spain - with Marcello Carammia, Laura Chaqués-Bonafont and Federico Russo 
 
 Work in progress
 ======
