@@ -30,17 +30,23 @@ Working papers
 
 [In search for common ground: The dynamics of interest groups and party narratives](https://www.dropbox.com/s/qoo4k3dr7dgi20z/In%20search%20for%20common%20ground_%20The%20dynamics%20of%20interest%20groups%20and%20party%20narratives.pdf?dl=0)
 
-What explains legislators’ alignment with interest groups during parliamentary hearings? - with Luz Muñoz and Julia Mugica
+[What explains legislators’ alignment with interest groups during parliamentary hearings? - with Luz Muñoz and Julia Mugica](https://www.dropbox.com/scl/fi/8fgcfttxvtcvrxfpr8o4p/AligningInterestParliamentaryHearings06032026.pdf?rlkey=4ny0locafqm09q8swvrhc7wtz&dl=0)
 
-Tracing corporatism in parliamentary hearings of interest groups - with Luz Muñoz
+[Tracing corporatism in parliamentary hearings of interest groups - with Luz Muñoz](https://www.dropbox.com/scl/fi/k5nivveiv45mvm8a94nqo/Tracing-corporatism-in-parliamentary-hearings-of-interest-groups.pdf?rlkey=31uipoifrghrrm1ztxmsjvloq&dl=0)
 
-Elite responsiveness to protest in Latin America: Evidence from protest event data and political elites on Twitter - with Ruud Wouters
+[Elite responsiveness to protest in Latin America: Evidence from protest event data and political elites on Twitter - with Ruud Wouters](https://www.dropbox.com/scl/fi/fkma4mkxpamyy3vinrv18/Elite-responsiveness-to-protest-in-Latin-America.pdf?rlkey=p1twm8y2n1vqwjlspdst0dwob&dl=0)
 
 MPs' issue prioritization on social media in Italy and Spain - with Marcello Carammia, Laura Chaqués-Bonafont and Federico Russo
 
 Work in progress
 ======
-Representations of Social Movements in YouTube Recommendations - with Enzo Pons
+[Representations of Social Movements in YouTube Recommendations - with Enzo Pons](https://urldefense.com/v3/__https://github.com/patilu66/code_ytb_bcn__;!!D9dNQwwGXtA!Qb976nsbpHQXLsrpiZ6eyQW2A4ylcJiveEBtG_7LRrudA1A-WldKPIjqgT8q61L0lepepGRrAXHqV0-ic8eVcOVZTdng7SdFHw$)
+
+[Scaling Manual Coding: Automated Extraction of Protest Events Using Large Language Models and SetFit](https://www.dropbox.com/scl/fi/pvnvfcrl5j25agp22mjma/Scaling-Manual-Coding.docx?rlkey=ypbhtvczoqw7oyp33bozfbe67&dl=0)
+
+[A Long Century of Protest in the Spanish Press: The Semantics of Contention (1905–2025) - with Eduardo Romanos](https://www.dropbox.com/scl/fi/lyqv1mf90jmm28luf0xem/A-Long-Century-of-Protest-in-the-Spanish-Press_-The-Semantics-of-Contention-1905-2025.pdf?rlkey=npknrdu8lq5fnaayixvfweabu&dl=0)
+
+[The Protest paradigm in a hard context: a longitudinal network analysis of media representations of protest in Colombia](https://www.dropbox.com/scl/fi/dccyykbfusw37ayl714bh/The-Protest-paradigm-in-a-hard-context_-a-longitudinal-network-analysis-of-media-representations-of-protest-in-Colombia.pdf?rlkey=u52ipnctgkh1ozcnm87ra62c5&dl=0)
 
 Illiberalism in Latin America – Public claims in presidential speeches 1999-2023 - with Martín Vergara
 
