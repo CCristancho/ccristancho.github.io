@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
+excerpt: "Camilo Cristancho"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,7 +12,7 @@ I am a computational social scientist in the Political Science and Law Departmen
 
 [My research project on rhetorical influence, political organisations and policy processes](https://ccristancho.github.io/rrigo/) uses data from social media and parliamentary records in a comparative perspective.
 
-Publications
+## Publications
 ======
 [UMUTEAM at DIPROMATS 2024: Feature Integration for Detecting Fine-grained Propaganda and Narrative](https://ceur-ws.org/Vol-3756/DIPROMATS2024_paper5.pdf) - Iberian Languages Evaluation Forum, 2024
 
@@ -22,7 +22,7 @@ Publications
 
 [La agenda de los grupos de interés frente a la COVID-19: el rastro digital en Twitter](https://recyt.fecyt.es/index.php/recp/article/view/90044) - Revista Española De Ciencia Política, 2021
 
-Working papers
+## Working papers
 ======
 [Social identity in times of moral shocks: a network analysis of protesters’ claims](https://www.dropbox.com/scl/fi/3fdhox4x90jbx0cydinmu/collective_identity-in-times-of-major-shocks_-15062025.pdf?rlkey=9myafdjakkdg2srmvwqzbqegy&dl=0) - with elena pavan.
 
@@ -36,9 +36,9 @@ Working papers
 
 [Elite responsiveness to protest in Latin America: Evidence from protest event data and political elites on Twitter - with Ruud Wouters](https://www.dropbox.com/scl/fi/fkma4mkxpamyy3vinrv18/Elite-responsiveness-to-protest-in-Latin-America.pdf?rlkey=p1twm8y2n1vqwjlspdst0dwob&dl=0)
 
-MPs' issue prioritization on social media in Italy and Spain - with Marcello Carammia, Laura Chaqués-Bonafont and Federico Russo 
+[MPs' issue prioritization on social media in Italy and Spain](#) - with Marcello Carammia, Laura Chaqués-Bonafont and Federico Russo 
 
-Work in progress
+## Work in progress
 ======
 [Representations of Social Movements in YouTube Recommendations - with Enzo Pons](https://urldefense.com/v3/__https://github.com/patilu66/code_ytb_bcn__;!!D9dNQwwGXtA!Qb976nsbpHQXLsrpiZ6eyQW2A4ylcJiveEBtG_7LRrudA1A-WldKPIjqgT8q61L0lepepGRrAXHqV0-ic8eVcOVZTdng7SdFHw$)
 
@@ -52,4 +52,4 @@ Illiberalism in Latin America – Public claims in presidential speeches 1999-20
 
 Varieties of elite polarisation in Latin America - with Luis Remiro
 
-Why do people support populism? Evidence from a conjoint analysis - with Hugo Marcos-Marne and Steven Van-Hauwaert 
+Why do people support populism? Evidence from a conjoint analysis - with Hugo Marcos-Marne and Steven Van-Hauwaert
