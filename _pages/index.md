@@ -13,7 +13,7 @@ I am a computational social scientist in the Political Science and Law Departmen
 [My research project on rhetorical influence, political organisations and policy processes](https://ccristancho.github.io/rrigo/) uses data from social media and parliamentary records in a comparative perspective.
 
 ## Publications
-======
+
 [UMUTEAM at DIPROMATS 2024: Feature Integration for Detecting Fine-grained Propaganda and Narrative](https://ceur-ws.org/Vol-3756/DIPROMATS2024_paper5.pdf) - Iberian Languages Evaluation Forum, 2024
 
 [The gender divide in issue attention](https://ejpr.onlinelibrary.wiley.com/doi/epdf/10.1111/1475-6765.12437) - European Journal of Political Research, 2022
@@ -23,7 +23,7 @@ I am a computational social scientist in the Political Science and Law Departmen
 [La agenda de los grupos de interés frente a la COVID-19: el rastro digital en Twitter](https://recyt.fecyt.es/index.php/recp/article/view/90044) - Revista Española De Ciencia Política, 2021
 
 ## Working papers
-======
+
 [Social identity in times of moral shocks: a network analysis of protesters’ claims](https://www.dropbox.com/scl/fi/3fdhox4x90jbx0cydinmu/collective_identity-in-times-of-major-shocks_-15062025.pdf?rlkey=9myafdjakkdg2srmvwqzbqegy&dl=0) - with elena pavan.
 
 [The Presidential Speeches Dataset: Formal and Informal Speechmaking in Latin America, 1999–2023](https://www.dropbox.com/scl/fi/3x76xv3mijrmaxarob2o2/The-Presidential-Speeches-Dataset.pdf?rlkey=gx6zkfjm7b1adueuob5ykn6cq&dl=0)
@@ -39,7 +39,7 @@ I am a computational social scientist in the Political Science and Law Departmen
 [MPs' issue prioritization on social media in Italy and Spain](#) - with Marcello Carammia, Laura Chaqués-Bonafont and Federico Russo 
 
 ## Work in progress
-======
+
 [Representations of Social Movements in YouTube Recommendations - with Enzo Pons](https://urldefense.com/v3/__https://github.com/patilu66/code_ytb_bcn__;!!D9dNQwwGXtA!Qb976nsbpHQXLsrpiZ6eyQW2A4ylcJiveEBtG_7LRrudA1A-WldKPIjqgT8q61L0lepepGRrAXHqV0-ic8eVcOVZTdng7SdFHw$)
 
 [Scaling Manual Coding: Automated Extraction of Protest Events Using Large Language Models and SetFit](https://www.dropbox.com/scl/fi/pvnvfcrl5j25agp22mjma/Scaling-Manual-Coding.docx?rlkey=ypbhtvczoqw7oyp33bozfbe67&dl=0)
