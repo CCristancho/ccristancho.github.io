@@ -1,0 +1,496 @@
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); }
+.wrap { padding: 1rem 0; }
+h2 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+.subtitle { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 1.5rem; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 1.25rem; }
+.tab { font-size: 13px; padding: 5px 14px; border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-secondary); background: var(--color-background-primary); color: var(--color-text-secondary); cursor: pointer; transition: all 0.15s; }
+.tab:hover { background: var(--color-background-secondary); }
+.tab.active { background: var(--color-background-info); color: var(--color-text-info); border-color: transparent; font-weight: 500; }
+.section { display: none; }
+.section.active { display: block; }
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 12.5px; table-layout: fixed; }
+col.c0 { width: 120px; }
+col.c1 { width: 145px; }
+col.c2 { width: 145px; }
+col.c3 { width: 150px; }
+col.c4 { width: 140px; }
+col.c5 { width: 115px; }
+col.c6 { width: 145px; }
+thead th { background: var(--color-background-secondary); font-weight: 500; font-size: 12px; color: var(--color-text-secondary); text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--color-border-tertiary); position: sticky; top: 0; z-index: 1; }
+thead th:first-child { color: var(--color-text-primary); font-size: 11px; }
+.country-badge { display: inline-block; font-size: 10px; font-weight: 500; padding: 2px 7px; border-radius: 9px; margin-bottom: 3px; }
+.ar { background: #E6F1FB; color: #0C447C; }
+.br { background: #EAF3DE; color: #27500A; }
+.cl { background: #FAEEDA; color: #633806; }
+.co { background: #FBEAF0; color: #72243E; }
+.mx { background: #EEEDFE; color: #3C3489; }
+.pe { background: #FAECE7; color: #712B13; }
+tbody tr { border-bottom: 0.5px solid var(--color-border-tertiary); }
+tbody tr:hover { background: var(--color-background-secondary); }
+td { padding: 8px 10px; vertical-align: top; color: var(--color-text-primary); line-height: 1.4; }
+td:first-child { font-weight: 500; font-size: 12px; color: var(--color-text-secondary); }
+.absent { color: var(--color-text-tertiary); font-style: italic; font-size: 11.5px; }
+.note { font-size: 11px; color: var(--color-text-secondary); margin-top: 3px; }
+.badge-row { display: flex; flex-direction: column; gap: 2px; }
+</style>
+
+<div class="wrap">
+  <h2>LATAM protest event codebook comparison</h2>
+  <p class="subtitle">Six datasets from Argentina, Brazil, Chile, Colombia/multi-country, Mexico, and Peru — categories by dimension</p>
+
+  <div class="tabs">
+    <button class="tab active" onclick="show('actors')">Actors / social groups</button>
+    <button class="tab" onclick="show('demands')">Demands / issues</button>
+    <button class="tab" onclick="show('tactics')">Tactics / repertoires</button>
+    <button class="tab" onclick="show('targets')">Targets</button>
+    <button class="tab" onclick="show('geography')">Geography</button>
+    <button class="tab" onclick="show('participation')">Participation</button>
+    <button class="tab" onclick="show('repression')">State response</button>
+    <button class="tab" onclick="show('meta')">Dataset overview</button>
+  </div>
+
+  <!-- ACTORS -->
+  <div class="section active" id="actors">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Category</th>
+        <th><span class="country-badge ar">AR</span> PEMPS (1983–2020)</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão (2003–2016)</th>
+        <th><span class="country-badge cl">CL</span> COES/OC (2009–2018)</th>
+        <th><span class="country-badge co">AR·BR·CL·CO</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS (2012–2016)</th>
+        <th><span class="country-badge pe">PE</span> BEPP (1980–2023)</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Approach</td>
+          <td>Multi-level: broad org type → sub-type (up to 5 entries per event)</td>
+          <td>Social group (15 categories) + mobilized base (6 codes) + organization name</td>
+          <td>Social group (P13, 30+ codes) + org name (P17)</td>
+          <td>Actor type (8 sectors) + specific name</td>
+          <td>Named organizations (up to 5) + sector (15+ categories)</td>
+          <td>Actor type (individual/org) + sector + specific actor code (100+ actors)</td>
+        </tr>
+        <tr>
+          <td>Labor / union</td>
+          <td>Sindical (education, health, public admin, judiciary, industry, services, agriculture, confederations); Empresarial (industry, commerce, services, agro, media); Tercerizados; Autoconvocados</td>
+          <td>Trabalhadores (formal/informal, urban/rural); Aposentados; Empregadores; Desempregados</td>
+          <td>Public sector workers (P13:12); Private sector workers (13); Self-employed/SME (14); Indeterminate (15); Unemployed (16); Retirees (17)</td>
+          <td>Trabajadores urbanos; Trabajadores rurales; Sindicatos; Organizaciones de desocupados/piqueteros; Sectores patronales</td>
+          <td>Sindicalismo público / Sindicalismo privado; Trabajadores asalariados; Jubilados</td>
+          <td>Actores laborales by sector: Agropecuario, Educativo, Salud, Pesquero, Transporte, Extractivo (miners, oil), Bancario, Comercial, Judicial, Eléctrico, Comunicaciones, otros; Org. laborales: Central sindical (CGTP, CITE, CTP, CUT)</td>
+        </tr>
+        <tr>
+          <td>Civil society / community</td>
+          <td>Civil (students, indigenous peoples, human rights, retirees, gender/diversity, neighborhood assoc., professionals, environmentalists, prisoners, parents, victims' relatives, religious, ex-combatants, collectives, consumers); Desocupados/Piquetera (sindical, partidaria, autonomista); Socioterritorial; Cooperativas; Multisectorial</td>
+          <td>Ambientalistas; Coletivos / grupos ad hoc; Direitos humanos; Difuso (unidentified crowd); Familiares e amigos de vítimas; Grupos antipetistas; Indígenas; LGBT; Moradores; Movimentos de esquerda; Mulheres; Negros; Presos; Religiosos; Estudantes</td>
+          <td>Women (P13:2); Youth (3); Elderly (4); Indigenous-mapuche (5); Indigenous-other (6); Immigrants (8); University students (9); Secondary students (10); Party affiliates (19); Residents/neighbors (21); Religious groups (22); Prisoners (23); Patients/health users (24); Animal rights (25); Disability groups (26); LGBTQ (27)</td>
+          <td>Org. sociales sectoriales; Fundaciones/Think Tank; Org. vecinales/territoriales; Org. Derechos Humanos; Estudiantes; Profesionales educación; Líderes estudiantiles; Artistas/intelectuales; Mov. mujeres; Mov. minorías; Mov. ecologistas; Mov. indígenas; Mov. campesinos; Mov. guerrilleros; Partidos Políticos; Burocracias/Fuerzas de seguridad; Grupos religiosos; Grupos antipoliticos conservadores; Empresariales; Actor red social; Medios de comunicación</td>
+          <td>Afectados y damnificados; Campesinos; Estudiantil; Indígenista; Feminismo; LGBTTI; Ecologista; Derechos humanos; Pobladores urbanos; Jubilados; Otros especializados (432 org. database)</td>
+          <td>Actores sociales: Comunidades campesinas (indigenous communities, peasant communities, rondas campesinas); Personas privadas de libertad (prisoners, families); Víctimas (patients, violence victims, disabled, disaster victims, refugees); Ciudadanía (parents, pobladores, AAHH residents, LGBT, users); Operadores políticos (party affiliates, authorities); Población desempleada; Pensionistas; Turistas; Org. sociales: Sociedad civil (frentes de defensa, colectivos, asociaciones civiles, comités, coordinadoras, federaciones, movimientos)</td>
+        </tr>
+        <tr>
+          <td>Political / institutional</td>
+          <td>Partidaria; Fuerzas de seguridad</td>
+          <td>Militantes de Partidos (in mobilized base code)</td>
+          <td>Party affiliates (P13:19); Security forces/police (20)</td>
+          <td>Partidos Políticos; Presidente/ejecutivo; Poder Judicial; Líderes oposición; Burocracia/fuerzas de seguridad</td>
+          <td><span class="absent">Not separately coded as actors</span></td>
+          <td>Operadores políticos: Partidarios políticos; Autoridades electas</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- DEMANDS -->
+  <div class="section" id="demands">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Category</th>
+        <th><span class="country-badge ar">AR</span> PEMPS</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão</th>
+        <th><span class="country-badge cl">CL</span> COES/OC</th>
+        <th><span class="country-badge co">Multi</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS</th>
+        <th><span class="country-badge pe">PE</span> BEPP</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Approach</td>
+          <td>Dichotomous flags (9 thematic categories) + detailed demand codes (up to 6 per event)</td>
+          <td>11 thematic categories (multiple, up to 4 per event)</td>
+          <td>Hierarchical numeric codes (up to 5 per event) + stance valence (maintain/change/unclear)</td>
+          <td>12 thematic categories (single or multiple)</td>
+          <td>Thematic classification (multiple) + full free text</td>
+          <td>7 top-level reclamos + 50+ sub-reclamos (up to 3 per event)</td>
+        </tr>
+        <tr>
+          <td>Labor / economic</td>
+          <td>d_trabajo: wage increases, back pay, other wages, work conditions, job maintenance, contract fulfillment; d_economica: macroeconomy, sectoral</td>
+          <td>Salário e condições de trabalho; Política econômica e setorial</td>
+          <td>0100–0199 labor demands: wages, conditions, union rights; 0900 economic policy</td>
+          <td>Mercado de trabajo, laboral y/o salarial; Política económica</td>
+          <td>Justicia laboral; Derechos sindicales; Economía</td>
+          <td>Reclamos laborales (101–110): aumentos salariales, reposición, pagos atrasados, condiciones, bonificaciones, nombramientos, puestos, estabilidad, recategorización; Reclamos económicos (701–709): presupuesto, precios, impuestos, créditos, protección producción nacional</td>
+        </tr>
+        <tr>
+          <td>Political / governance</td>
+          <td>d_politica: political personnel, democratic functioning, representation</td>
+          <td>Governo e sistema político (incl. impeachment, corruption, democracy, media)</td>
+          <td>0300–0399 political: elections, corruption, dictatorship; 1100 human rights / state violence; 1200 justice system</td>
+          <td>Institucionalidad Política; Justicia; DD.HH.</td>
+          <td>Justicia; Represión; Derechos políticos</td>
+          <td>Reclamos políticos (601–613): cumplimiento pactos, rechazo privatización, rechazo/promulgación normas, destitución funcionarios/autoridades, ejecución reformas, erradicación coca, resultados electorales, participación electoral</td>
+        </tr>
+        <tr>
+          <td>Social / welfare</td>
+          <td>d_bienestar: education, health, social security; d_seguridad: public security; d_justicia: judiciary</td>
+          <td>Políticas sociais (salud y educación); Justiça, direitos humanos e segurança; Condiciones de vida en ciudades (housing, transport, urban services)</td>
+          <td>0200–0299 education; 0500–0599 health; 0600–0699 social security; 1400 other (disabled, elderly, poverty, religious, sports)</td>
+          <td>Seguridad Social; Educación Pública; Salud Pública; Seguridad; Defensa del Consumidor; Pobreza/desigualdad</td>
+          <td>Derechos sociales; Educación; Salud; Seguridad</td>
+          <td>Reclamos de servicios (401–410): salud, beneficios sociales, seguridad, transporte, saneamiento, vivienda, alimentación, educación, irrigación, proyectos desarrollo</td>
+        </tr>
+        <tr>
+          <td>Environment / territory</td>
+          <td>d_ambiente: environment protection</td>
+          <td>Meio ambiente e desenvolvimento; Terra (land, indigenous, agrarian reform)</td>
+          <td>0400–0499 environmentalist: ecology, anti-mining, pro-nature; 0800–0899 regionalist/local (NIMBY, urban planning, infrastructure)</td>
+          <td>Ecología y Medio Ambiente</td>
+          <td>Ecologista; Territorio indígena; Recursos naturales</td>
+          <td>Reclamos ambientales (201–204): retiro empresa, reparaciones daños, protección naturaleza, suspensión concesiones; Reclamos territoriales (301–305): adjudicación tierras, defensa territorio, zonificación, límites</td>
+        </tr>
+        <tr>
+          <td>Identity / rights</td>
+          <td>d_genero: gender equality</td>
+          <td>Gênero, diversidade sexual e raça</td>
+          <td>0700–0799 values (abortion, euthanasia, divorce); 0900–0999 sexual minorities; 1000–1099 anti-immigrant/ethnic groups</td>
+          <td>Género y Feminismos; DD.HH.</td>
+          <td>Feminismo; LGBTTI; Indígenista; Migrantes; Derechos humanos</td>
+          <td><span class="absent">Not a primary top-level category; partially covered under Ciudadanía actors (LGBT, victims)</span></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- TACTICS -->
+  <div class="section" id="tactics">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Category</th>
+        <th><span class="country-badge ar">AR</span> PEMPS</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão</th>
+        <th><span class="country-badge cl">CL</span> COES/OC</th>
+        <th><span class="country-badge co">Multi</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS</th>
+        <th><span class="country-badge pe">PE</span> BEPP</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Approach</td>
+          <td>Dichotomous flags (10 formats) + detailed codes (up to 5 per event)</td>
+          <td>Forma de ação (multiple); Repertório coded per event</td>
+          <td>35-item numeric taxonomy (P29, up to 6 per event), organized in 5 groups: conventional, symbolic/ceremonial, artistic, disruptive non-violent, violent</td>
+          <td>17-item list (single primary format)</td>
+          <td>Single classification (Pacífico / Violento / Both) + 15-item list (multiple per event)</td>
+          <td>29 distinct action types (single or multiple per event)</td>
+        </tr>
+        <tr>
+          <td>Conventional / expressive</td>
+          <td>Manifestación; Petitorio; Expresivos; Escrache; Cacerolazo</td>
+          <td>Manifestação; Passeata; Ato / Comício; Vigília; Carta aberta; Cartazes / bandeiras</td>
+          <td>P29: 1-Convocatoria/rueda de prensa; 2-Firma de petición; 3-Marcha/procesión/concentración; 4-Vigilia/rezos; 12-Rezos/símbolos religiosos; 13-Vigilia silenciosa; 14-Festejos colectivos</td>
+          <td>Manifestación (desplazamiento personas); Asamblea (reunión en un lugar); Entrega Petitorio/Juntada de Firmas; Solicitada en la prensa; Exhibición leyendas y carteles; Cacerolazo/Acción ruidosa; Ciberprotesta</td>
+          <td>Marcha; Mitin; Plantón; Caravana; Acciones artísticas; Ciberactivismo; Desobediencia civil</td>
+          <td>Marcha; Mitin; Vigilia; Cacerolazo; Quemas; Lanzamiento de objetos; Protesta simbólica; Lavados; Pasacalle/caravana; Entrega petición; Dolor autoinfligido; Olla común</td>
+        </tr>
+        <tr>
+          <td>Disruptive non-violent</td>
+          <td>Huelga; Toma; Corte de calles/rutas; Motín</td>
+          <td>Greve; Ocupação; Bloqueio / paralisação; Interdição de via</td>
+          <td>P29: 18-Huelga/paro; 19-Ocupación de edificio/espacio; 20-Bloqueo vía; 21-Corte suministro; 22-Huelga de hambre; 23-Paralización (go-slow); 24-Boicot; 25-Acampada</td>
+          <td>Corte/piquete/impedimento circulación; Huelga; Toma u ocupación lugar; Boicot; Lockout (cierre empresarial); Huelga de hambre; Acuartelamiento; Motín (carcelario)</td>
+          <td>Bloqueo; Huelga; Campamento; Toma de instalaciones</td>
+          <td>Paro; Huelga; Bloqueo de vías; Plantón; Toma de local; Huelga de hambre; Encadenamiento/cerco; Boicot; Abandonos; Secuestro/rehenes</td>
+        </tr>
+        <tr>
+          <td>Violent / confrontational</td>
+          <td><span class="absent">Not separately coded as tactics; captured via actor type (e.g., Piquetera)</span></td>
+          <td>Confronto físico; Quebra-quebra; Vandalismo; Incêndio; Arremesso de objetos</td>
+          <td>P29: 26-Disturbios/barricadas; 27-Destrucción propiedad; 28-Incendios; 29-Saqueo; 30-Explosivos/armas; 31-Agresiones entre manifestantes; 32-Enfrentamientos contra-manifestantes; 33-Ataques a fuerzas seguridad; 34-Ataques transeúntes; 35-Toma de rehenes</td>
+          <td>Saqueos</td>
+          <td>Violento (classification flag)</td>
+          <td>Enfrentamiento (between groups); Invasión; Destrucción propiedad; Motín (prison); Apedreamiento; Saqueo; Agresión física</td>
+        </tr>
+        <tr>
+          <td>Artistic / symbolic</td>
+          <td>Expresivos (flag)</td>
+          <td>Performance artística; Intervenção cultural; Flashmob</td>
+          <td>P29: 15-Performance artística (manifestantes); 16-Performance artística (profesionales); 17-Actividades simbólicas coordinadas (caceroleos, besatones, bicicletadas)</td>
+          <td>Happening (ocupación espacio público simbólica/artística)</td>
+          <td>Acciones artísticas; Ciberactivismo</td>
+          <td>Quemas simbólicas; Lavados; Protesta simbólica; Olla común</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- TARGETS -->
+  <div class="section" id="targets">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Category</th>
+        <th><span class="country-badge ar">AR</span> PEMPS</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão</th>
+        <th><span class="country-badge cl">CL</span> COES/OC</th>
+        <th><span class="country-badge co">Multi</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS</th>
+        <th><span class="country-badge pe">PE</span> BEPP</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Approach</td>
+          <td><span class="absent">Implicitly coded via demands; no dedicated target variable</span></td>
+          <td>Free text (government, business, institution named in event)</td>
+          <td>Dichotomous P14 flags (8 categories) + P15 sector text (demandado) + P18 sector text (demandante)</td>
+          <td>16-category list (Destinatarios)</td>
+          <td>Grievance scope: Local / Regional / Nacional</td>
+          <td>Adversario taxonomy: 15 top-level types, 200+ specific institutions</td>
+        </tr>
+        <tr>
+          <td>Government</td>
+          <td><span class="absent">—</span></td>
+          <td>Government (federal, state, municipal)</td>
+          <td>P14a: National govt/authorities; P14b: Regional/local authorities</td>
+          <td>Gobierno nacional; Gobierno provincial/estadual; Gobierno local/ciudad; Poder Judicial; Poder Legislativo; Burocracia/Fuerzas Seguridad; Partidos Políticos</td>
+          <td>Scope flag (Nacional)</td>
+          <td>Poder Ejecutivo (Presidencia + 22 ministerios); Poder Legislativo (Congreso, comisiones); Poder Judicial; Gobierno Regional; Gobierno Local; Fuerzas armadas/policiales; Organismos constitucionales; Empresas del Estado</td>
+        </tr>
+        <tr>
+          <td>Private sector</td>
+          <td><span class="absent">—</span></td>
+          <td>Employers, corporations</td>
+          <td>P14c: Private companies (national/international)</td>
+          <td>Empleadores/patronales; Actor económico empresarial</td>
+          <td><span class="absent">Not coded separately</span></td>
+          <td>Empresas privadas (general); Empresas extractivas (specific mining, oil); Universidades privadas</td>
+        </tr>
+        <tr>
+          <td>Civil society / other</td>
+          <td><span class="absent">—</span></td>
+          <td>Media, political movements</td>
+          <td>P14d: Foreign govt; P14e: Educational institution; P14f: Health institution; P14g: Civil society actor</td>
+          <td>Trabajadores y sindicatos; Org. Sociedad Civil; Movimientos Sociales; Organismos Internacionales; Medios de comunicación</td>
+          <td><span class="absent">Not coded separately</span></td>
+          <td>Partidos Políticos; Organismos Internacionales; Iglesia; Organización gremial; Sociedad civil</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- GEOGRAPHY -->
+  <div class="section" id="geography">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Variable</th>
+        <th><span class="country-badge ar">AR</span> PEMPS</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão</th>
+        <th><span class="country-badge cl">CL</span> COES/OC</th>
+        <th><span class="country-badge co">Multi</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS</th>
+        <th><span class="country-badge pe">PE</span> BEPP</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Granularity</td>
+          <td>Specific location (up to 16 coded places + open field); Region (AMBA / interior / both / other)</td>
+          <td>City + state (table per city for multi-city events); federally-structured</td>
+          <td>Specific location + geolocation coordinates (P7); event-level + episode-level distinction</td>
+          <td>Country (AR/BR/CL/CO); city; region</td>
+          <td>State; Municipality; Specific location; Lat/Long coordinates; Precision level</td>
+          <td>Región (25 regions); Provincia (196 provinces); Distrito (1,874 districts) — hierarchical numeric codes</td>
+        </tr>
+        <tr>
+          <td>Urban/national scope</td>
+          <td>AMBA vs. interior coding; front-page/tapa as proxy for national salience</td>
+          <td>Multi-city table allows national-scope events; national vs. local distinguished by coverage</td>
+          <td>P8: Scope (local/regional/national); P9: Multi-location flag; P9a: Episode-level participation count</td>
+          <td>Country + city coded; multi-country dataset inherently comparative</td>
+          <td>Grievance_Scope (Local / Regional / Nacional); Grievance_Local (Y/N)</td>
+          <td>Region/province/district hierarchy; no explicit urban-rural or scope flag</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- PARTICIPATION -->
+  <div class="section" id="participation">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Variable</th>
+        <th><span class="country-badge ar">AR</span> PEMPS</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão</th>
+        <th><span class="country-badge cl">CL</span> COES/OC</th>
+        <th><span class="country-badge co">Multi</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS</th>
+        <th><span class="country-badge pe">PE</span> BEPP</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Participant count</td>
+          <td>Raw N + ordinal scale: ≤100 / 101–500 / 501–3000 / &gt;3000</td>
+          <td>Raw N as reported; separate coding when organizer vs. police figures differ</td>
+          <td>Raw N (P11); episode total (P11a); ordinal P12: 1(very small) to 6(tens of thousands). Criteria: average of organizer and police figures</td>
+          <td>Ordinal: De cercanía (&lt;50) / Reducidas (50–100) / Grandes (100–500) / Extensas (&gt;500)</td>
+          <td>Raw N not coded; scale inferred from organizational data</td>
+          <td><span class="absent">Not coded in the BEPP codebook; referenced in manual</span></td>
+        </tr>
+        <tr>
+          <td>Duration</td>
+          <td>Days (raw) + binary: 1 day / more than 1 day</td>
+          <td>Start/end date per event; trajectory tracked via repeated event codes</td>
+          <td>Raw days (P6); binary distinction (single/multi-day); start–end dates for long events</td>
+          <td>Ordinal: 1 día / hasta 1 semana / hasta 1 mes / más de 1 mes / indeterminate</td>
+          <td>Raw days; Long_Event flag (Y/N); start/end dates</td>
+          <td><span class="absent">Not a primary variable in the codebook</span></td>
+        </tr>
+        <tr>
+          <td>Organizations</td>
+          <td>N_organizaciones (count); up to 5 typed org entries</td>
+          <td>Organization name(s) coded; base mobilizada classification</td>
+          <td>P16 (count formal orgs); P17 (names, up to 6)</td>
+          <td>Actor name + type; multiple entries allowed</td>
+          <td>Count + up to 5 named organizations; 432-org database</td>
+          <td>Org. laborales (confederations); Org. sociales (sociedad civil entities) — named and typed</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- REPRESSION -->
+  <div class="section" id="repression">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Variable</th>
+        <th><span class="country-badge ar">AR</span> PEMPS</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão</th>
+        <th><span class="country-badge cl">CL</span> COES/OC</th>
+        <th><span class="country-badge co">Multi</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS</th>
+        <th><span class="country-badge pe">PE</span> BEPP</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>Police / security presence</td>
+          <td><span class="absent">Not coded as a primary variable</span></td>
+          <td>Presença policial (Y/N); tipo de ação policial</td>
+          <td>P21: Police presence (Y/N); P22a–P22d: hand-to-hand, tear gas/water cannon, firearms, arrests</td>
+          <td>Violencia (Y/N binary)</td>
+          <td>Police_Intervention (Y/N); Police_Aggressions (Y/N); Encapsulations; Evictions; Blockades</td>
+          <td><span class="absent">Not separately coded; captured via action type (enfrentamiento)</span></td>
+        </tr>
+        <tr>
+          <td>Arrests / detentions</td>
+          <td><span class="absent">—</span></td>
+          <td>Detenções (N raw)</td>
+          <td>P23: N arrests; P24: ordinal estimate (2–9 / 10–49 / 50–99 / 100+)</td>
+          <td><span class="absent">—</span></td>
+          <td>Protesters_Detained (N)</td>
+          <td><span class="absent">—</span></td>
+        </tr>
+        <tr>
+          <td>Injuries / deaths</td>
+          <td><span class="absent">—</span></td>
+          <td>Feridos (N raw); Mortos (N raw); distinction by protesters vs. police</td>
+          <td>P25–P28: injured/killed — protesters, police, bystanders — raw N + ordinal estimate</td>
+          <td><span class="absent">—</span></td>
+          <td>Protesters_Injured; Protesters_Killed; Police_Injured; Police_Killed; Bystanders_Injured; Bystanders_Killed</td>
+          <td><span class="absent">—</span></td>
+        </tr>
+        <tr>
+          <td>State concessions / outcomes</td>
+          <td><span class="absent">—</span></td>
+          <td>Resultado (partial/full concession coded)</td>
+          <td><span class="absent">Not coded</span></td>
+          <td><span class="absent">—</span></td>
+          <td>Dialogue_Opened; Demands_Attended; Demands_Partially_Attended</td>
+          <td><span class="absent">—</span></td>
+        </tr>
+        <tr>
+          <td>Property damage</td>
+          <td><span class="absent">—</span></td>
+          <td>Danos patrimoniais (Y/N + type)</td>
+          <td><span class="absent">Not coded separately (covered in tactics P29)</span></td>
+          <td><span class="absent">—</span></td>
+          <td>Public_Property_Damage (Y/N); Private_Property_Damage (Y/N)</td>
+          <td>Destrucción propiedad (as action type 111)</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+
+  <!-- META -->
+  <div class="section" id="meta">
+    <div class="tbl-wrap">
+    <table>
+      <colgroup><col class="c0"><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>
+      <thead><tr>
+        <th>Feature</th>
+        <th><span class="country-badge ar">AR</span> PEMPS</th>
+        <th><span class="country-badge br">BR</span> Tatagiba &amp; Galvão</th>
+        <th><span class="country-badge cl">CL</span> COES/OC</th>
+        <th><span class="country-badge co">Multi</span> CLACSO 2019</th>
+        <th><span class="country-badge mx">MX</span> LAOMS</th>
+        <th><span class="country-badge pe">PE</span> BEPP</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>Country</td><td>Argentina</td><td>Brazil</td><td>Chile</td><td>Argentina, Brazil, Chile, Colombia</td><td>Mexico</td><td>Peru</td></tr>
+        <tr><td>Period</td><td>1983–2020</td><td>2003–2016</td><td>2009–2018</td><td>2019 only</td><td>2012–2016</td><td>1980–2023</td></tr>
+        <tr><td>N events</td><td>~20,000+</td><td>Not published</td><td>~18,416 (2009–2018)</td><td>Multi-country sample</td><td>583</td><td>~20,000+</td></tr>
+        <tr><td>Source(s)</td><td>Clarín + La Nación</td><td>Folha de São Paulo</td><td>National + regional newspapers + Radio Bíobío</td><td>3 newspapers per country (12 total)</td><td>La Jornada</td><td>La República, El Comercio, Expreso (combinations)</td></tr>
+        <tr><td>Unit of analysis</td><td>Single protest event (national scope)</td><td>Event (general table) + city-level entries per event</td><td>Action (single tactic in single place) + episode (coordinated multi-action)</td><td>Single protest event</td><td>Single protest event + article</td><td>Single protest event (action)</td></tr>
+        <tr><td>Political context var.</td><td>Presidencia (by name); Décadas</td><td><span class="absent">No explicit variable; derivable from dates</span></td><td><span class="absent">No explicit variable</span></td><td><span class="absent">No explicit variable</span></td><td><span class="absent">No explicit variable</span></td><td>Presidente (16 presidents coded)</td></tr>
+        <tr><td>Media salience</td><td>Tapa (front page Y/N)</td><td>Article section + repetition tracking</td><td>Media type (regional/national/radio); combined coverage flag</td><td>Source (newspaper name per country)</td><td>Article section; coverage days; URL</td><td>Newspaper combination codes (7 source combinations)</td></tr>
+        <tr><td>Unique features</td><td>Piquetera org sub-type; long historical depth; decade variable</td><td>Mobilized base (TERR/IDEN/OCUP/POLI) as event identifier; trajectory tracking via event code</td><td>Action vs. episode distinction; P20 conflict field taxonomy (PNUD-based); geolocation coordinates</td>
+          <td>Multi-country comparability built-in; actor descriptor typology (Lab/Osc/EdCul/Geco/Pol/Cons/Empr/MeRed)</td>
+          <td>Geolocation; outcome/concession coding; full text of demands; network-analysis ready (org database)</td>
+          <td>Most granular geographic (district level); most granular actor (100+ named actors); detailed adversary taxonomy (200+ institutions); sub-reclamo coding (~50 sub-categories)</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+
+<script>
+function show(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
