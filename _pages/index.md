@@ -10,7 +10,11 @@ redirect_from:
 
 I am a computational social scientist in the Political Science and Law Department at Universitat de Barcelona (Ramón y Cajal research fellow 2023-2027). My research covers topics related to protest politics and interest groups. I use computational linguistics, network analysis, and experimental and survey data to address core questions on representation, inequalities, and influence processes in Europe and Latin America.
 
-[My research project on rhetorical influence, political organisations and policy processes](https://ccristancho.github.io/rrigo/) uses data from social media and parliamentary records in a comparative perspective.
+My research project on Media depictions and Public Attitudes towards Protest in Spain in comparative perspective [SCOPE](https://ccristancho.github.io/SCOPE/) combines computational text analysis of over a century of press coverage, existing cross-national survey data, and original survey experiments, across Spain, Portugal, Italy, and Greece (PID2025-174088NB-I00).
+
+## Ongoing projects
+
+Rhetorical influence, political organisations and policy processes [RRIGO](https://ccristancho.github.io/rrigo/) uses data from social media and parliamentary records in a comparative perspective.
 
 ## Publications
 
