@@ -17,6 +17,8 @@ My research project on Media depictions and Public Attitudes towards Protest in 
 Rhetorical influence, political organisations and policy processes [RRIGO](https://ccristancho.github.io/rrigo/) uses data from social media and parliamentary records in a comparative perspective.
 
 ## Publications
+[When do legislators align with interest groups? Party status, insider access, and legislative context](https://www.tandfonline.com/journals/fjls20) - The Journal of Legislative Studies, 2026
+
 [Gender Divide in the Parliamentary debate: The case of the Parliament of Catalonia](https://recyt.fecyt.es/index.php/recp) - Revista Española de Ciencia Política, 2026
 
 [UMUTEAM at DIPROMATS 2024: Feature Integration for Detecting Fine-grained Propaganda and Narrative](https://ceur-ws.org/Vol-3756/DIPROMATS2024_paper5.pdf) - Iberian Languages Evaluation Forum, 2024
