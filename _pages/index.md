@@ -37,8 +37,6 @@ Rhetorical influence, political organisations and policy processes [RRIGO](https
 
 [In search for common ground: The dynamics of interest groups and party narratives](https://www.dropbox.com/s/qoo4k3dr7dgi20z/In%20search%20for%20common%20ground_%20The%20dynamics%20of%20interest%20groups%20and%20party%20narratives.pdf?dl=0)
 
-[What explains legislators’ alignment with interest groups during parliamentary hearings? - with Luz Muñoz and Julia Mugica](https://www.dropbox.com/scl/fi/8fgcfttxvtcvrxfpr8o4p/AligningInterestParliamentaryHearings06032026.pdf?rlkey=4ny0locafqm09q8swvrhc7wtz&dl=0)
-
 [Tracing corporatism in parliamentary hearings of interest groups - with Luz Muñoz](https://www.dropbox.com/scl/fi/k5nivveiv45mvm8a94nqo/Tracing-corporatism-in-parliamentary-hearings-of-interest-groups.pdf?rlkey=31uipoifrghrrm1ztxmsjvloq&dl=0)
 
 [Elite responsiveness to protest in Latin America: Evidence from protest event data and political elites on Twitter - with Ruud Wouters](https://www.dropbox.com/scl/fi/fkma4mkxpamyy3vinrv18/Elite-responsiveness-to-protest-in-Latin-America.pdf?rlkey=p1twm8y2n1vqwjlspdst0dwob&dl=0)
